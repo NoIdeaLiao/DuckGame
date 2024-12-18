@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="380.0" prefHeight="380.0" prefWidth="600.0" styleClass="fieldBackground" stylesheets="@Theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DuckHunt.view.GameController">
+   <children>
+      <Canvas fx:id="canvas" height="298.0" layoutX="13.0" layoutY="76.0" width="575.0" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="76.0" />
+      <ImageView fx:id="duckImage" fitHeight="74.0" fitWidth="108.0" layoutX="262.0" layoutY="126.0" onMouseClicked="#onDuckClicked" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="scoreLabel" layoutX="14.0" layoutY="14.0" styleClass="whiteLabel" text="Label" />
+      <Label fx:id="timerLabel" layoutX="524.0" layoutY="14.0" styleClass="whiteLabel" text="Label" />
+   </children>
+</AnchorPane>

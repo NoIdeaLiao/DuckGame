@@ -1,0 +1,28 @@
+.background{
+    -fx-background-color: skyblue;
+}
+
+.fieldBackground{
+    -fx-background-image: url("/Picture/Field.jpg");
+    -fx-background-size: cover;
+}
+
+.label{
+    -fx-font-size: 16px;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.whiteLabel{
+    -fx-font-size: 16px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: white;
+}
+
+.labelTitle{
+    -fx-font-size: 30px;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.button{
+    -fx-font-family: "Comic Sans MS";
+}
